@@ -122,7 +122,7 @@ public class Greeting {
      */
     public String toString() {
         return "{localityID:" + this.localityID + ", localityName:\"" + this.localityName + "\", asciiGreeting:\""
-                + this.asciiGreeting + "\", unicodeGreeting:\"" + this.unicodeGreeting +"\"}";
+                + this.asciiGreeting + "\", unicodeGreeting:\"" + this.unicodeGreeting + "\"}";
     }
 
 }
