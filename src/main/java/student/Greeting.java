@@ -121,8 +121,8 @@ public class Greeting {
      * @return the full greeting details as a string
      */
     public String toString() {
-        return "{localityID:" + this.localityID + ", localityName:\"" + this.localityName
-                + "\", asciiGreeting:\"" + this.asciiGreeting + "\", unicodeGreeting:\"" + this.unicodeGreeting +"\"}";
+        return "{localityID:" + this.localityID + ", localityName:\"" + this.localityName + "\", asciiGreeting:\""
+                + this.asciiGreeting + "\", unicodeGreeting:\"" + this.unicodeGreeting +"\"}";
     }
 
 }
