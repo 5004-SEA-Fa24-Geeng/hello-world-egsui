@@ -86,10 +86,9 @@ These questions require deeper thinking of the topic. We don't expect 100% corre
 
 [^4]: Private Constructors in Java. https://www.baeldung.com/java-private-constructors. Accessed: 2025-01-25.
 
-[^5]: How to override the toString() method in Java
- https://www.educative.io/answers/how-to-override-the-tostring-method-in-java. Accessed: 2025-01-25.
+[^5]: How to override the toString() method in Java. https://www.educative.io/answers/how-to-override-the-tostring-method-in-java. Accessed: 2025-01-25.
 
-[^6]: Test-driven development https://en.wikipedia.org/wiki/Test-driven_development. Accessed: 2025-01-25.
+[^6]: Test-driven development. https://en.wikipedia.org/wiki/Test-driven_development. Accessed: 2025-01-25.
 
 
 <!-- This is a comment, below this link the links in the document are placed here to make ti easier to read. This is an optional style for markdown, and often as a student you will include the links inline. for example [mermaid](https://mermaid.js.org/intro/syntax-reference.html) -->
