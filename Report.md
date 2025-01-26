@@ -30,9 +30,9 @@ Write a short paragraph detailing the flow of the program in your own words. Thi
 2. For each syntax additional item listed above, explain what it does in your own words and then link a resource where you figured out what it does in the references section. 
 
     * (example) The `final` keyword when used on a class prevents the class from being subclassed. This means that the class cannot be extended by another class. This is useful when you want to prevent a class from being modified or extended[^1] . It is often the standard to do this when a class only contains static methods such as driver or utility classes. Math in Java is an example of a final class[^2] .
-    >  * The `static` keyword represents a member belongs to the class itself, it can be accessed without instantiating a new object.
-    >  * The `@override` occurs a subclass implements a method which is already defined in the superclass. This approach allows the method in subclass with same signature as in superclass to override the inherited methods.
-    >  * Private constructors allow us to prevent the instantiation of a class, enforcing controlled object creation. By making the constructor private, we can prevent other code from creating multiple instances of the class.
+    >  * The `static` keyword[^7] represents a member belongs to the class itself, it can be accessed without instantiating a new object.
+    >  * The `@override` occurs a subclass implements a method which is already defined in the superclass. This approach allows the method in subclass with same signature as in superclass to override the inherited methods.[^3]
+    >  * Private constructors allow us to prevent the instantiation of a class, enforcing controlled object creation.[^4] By making the constructor private, we can prevent other code from creating multiple instances of the class.
 
 3. What does `main` do in Java? 
 
@@ -41,7 +41,7 @@ Write a short paragraph detailing the flow of the program in your own words. Thi
 
 4. What does `toString()` do in Java? Why should any object class you create have a `toString()` method?
 
-   > The `toString()` method returns the string representation of the object. It's easy for reading and debugging. The reason we should create a `toString()` method for any object class is to override the superclass `toString()` method and generate its own string representation.
+   > The `toString()` method returns the string representation of the object.[^5] It's easy for reading and debugging. The reason we should create a `toString()` method for any object class is to override the superclass `toString()` method and generate its own string representation.
 
 
 5. What is javadoc style commenting? What is it used for? 
@@ -51,7 +51,7 @@ Write a short paragraph detailing the flow of the program in your own words. Thi
 
 6. Describe Test Driving Development (TDD) in your own words. 
 
-   > TDD is a way of writing code that involves writing unit-level test codes and production codes. Before writing the actual codes, we write tests first. This approach is to ensure our code works as expected. If the test fails, we refactor our codes. By repeating with another new test case, we make comprehensive tests on our program and improve its quality.
+   > TDD is a way of writing code that involves writing unit-level test codes and production codes.[^6] Before writing the actual codes, we write tests first. This approach is to ensure our code works as expected. If the test fails, we refactor our codes. By repeating with another new test case, we make comprehensive tests on our program and improve its quality.
 
 
 7. Go to the [Markdown Playground](MarkdownPlayground.md) and add at least 3 different markdown elements you learned about by reading the markdown resources listed in the document. Additionally you need to add a mermaid class diagram (of your choice does not have to follow the assignment. However, if you did use mermaid for the assignment, you can just copy that there). Add the elements into the markdown file, so that the formatting changes are reserved to that file. 
@@ -78,17 +78,19 @@ These questions require deeper thinking of the topic. We don't expect 100% corre
 
 ## References
 
-[1]: Final keyword in Java: 2024. https://www.geeksforgeeks.org/final-keyword-in-java/. Accessed: 2024-03-30. 
+[^1]: Final keyword in Java: 2024. https://www.geeksforgeeks.org/final-keyword-in-java/. Accessed: 2024-03-30. 
 
-[2]: Math (Java Platform SE 17). https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Math.html. Accessed: 2024-03-30.
+[^2]: Math (Java Platform SE 17). https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Math.html. Accessed: 2024-03-30.
 
-[3]: Overriding in Java. https://www.geeksforgeeks.org/overriding-in-java/. Accessed: 2025-01-25.
+[^3]: Overriding in Java. https://www.geeksforgeeks.org/overriding-in-java/. Accessed: 2025-01-25.
 
-[4]: Private Constructors in Java. https://www.baeldung.com/java-private-constructors. Accessed: 2025-01-25.
+[^4]: Private Constructors in Java. https://www.baeldung.com/java-private-constructors. Accessed: 2025-01-25.
 
-[5]: How to override the toString() method in Java. https://www.educative.io/answers/how-to-override-the-tostring-method-in-java. Accessed: 2025-01-25.
+[^5]: How to override the toString() method in Java. https://www.educative.io/answers/how-to-override-the-tostring-method-in-java. Accessed: 2025-01-25.
 
-[6]: Test-driven development. https://en.wikipedia.org/wiki/Test-driven_development. Accessed: 2025-01-25.
+[^6]: Test-driven development. https://en.wikipedia.org/wiki/Test-driven_development. Accessed: 2025-01-25.
+
+[^7]: static Keyword in Java. https://www.geeksforgeeks.org/static-keyword-java/. Accessed: 2025-01-25.
 
 
 <!-- This is a comment, below this link the links in the document are placed here to make ti easier to read. This is an optional style for markdown, and often as a student you will include the links inline. for example [mermaid](https://mermaid.js.org/intro/syntax-reference.html) -->
