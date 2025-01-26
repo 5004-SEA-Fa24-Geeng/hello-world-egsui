@@ -13,6 +13,7 @@ capacity.
 Did you use any external resources (you do not have to cite in class material)? (Cite them below)
 
 * draw.io
+* mermaid.live
 
 
 (Optional) What was your favorite part of the assignment? Drawing UML diagram.
