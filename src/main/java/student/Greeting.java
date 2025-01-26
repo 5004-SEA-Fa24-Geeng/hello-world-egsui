@@ -120,6 +120,7 @@ public class Greeting {
      *  {localityID:1, localityName:"Hawaii", asciiGreeting:"Aloha", unicodeGreeting:"Aloha"}
      * @return the full greeting details as a string
      */
+    @Override
     public String toString() {
         return "{localityID:" + this.localityID + ", localityName:\"" + this.localityName + "\", asciiGreeting:\""
                 + this.asciiGreeting + "\", unicodeGreeting:\"" + this.unicodeGreeting + "\"}";
